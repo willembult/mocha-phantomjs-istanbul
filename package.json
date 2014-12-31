@@ -1,6 +1,6 @@
 {
   "name": "mocha-phantomjs-istanbul",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "collect istanbul coverage from instrumented client-side Mocha tests with PhantomJS",
   "keywords": [
     "mocha",
