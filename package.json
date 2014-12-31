@@ -1,0 +1,41 @@
+{
+  "name": "mocha-phantomjs-istanbul",
+  "version": "0.0.1",
+  "description": "collect istanbul coverage from instrumented client-side Mocha tests with PhantomJS",
+  "keywords": [
+    "mocha",
+    "phantomjs",
+    "istanbul",
+    "coverage",
+    "test",
+    "testing",
+    "runner",
+    "unit",
+    "bdd"
+  ],
+  "author": "Willem Bult <willem.bult@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "gulp-mocha": "^2.0.0",
+    "mocha": "^2.1.0",
+    "mocha-phantomjs": "^3.5.2",
+    "path": "^0.4.9",
+    "phantomjs": "^1.9.0"
+  },
+  "homepage": "https://github.com/willembult/mocha-phantomjs-istanbul",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/willembult/mocha-phantomjs-istanbul.git"
+  },
+  "bugs": {
+    "url": "https://github.com/willembult/mocha-phantomjs-istanbul/issues"
+  },
+  "license": "MIT"
+}

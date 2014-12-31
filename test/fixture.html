@@ -1,0 +1,17 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+</head>
+<body>
+  <div id="mocha"></div>
+  <script src="../node_modules/mocha/mocha.js"></script>
+  <script>mocha.setup('bdd')</script>
+  <script>
+    if (window.mochaPhantomJS) {
+      window.__coverage__ = {foo:'bar'};
+      mochaPhantomJS.run();
+    }
+  </script>
+</body>
+</html>
